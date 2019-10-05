@@ -2,9 +2,15 @@
     "javascript.preferences.quoteStyle": "double",
     "javascript.preferences.importModuleSpecifier": "relative",
     "[javascript]": {
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
     },
     "[javascriptreact]": {
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
     }
 }
